@@ -14,7 +14,7 @@ async function updateLike(){
   try{
     axios.post('https://afsanay-api-git-master-bashward.vercel.app/update',{
       id: content._id,
-      inc: true
+      inc: 1
     },{
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
@@ -35,7 +35,7 @@ async function updateLike(){
   try{
     axios.post('https://afsanay-api-git-master-bashward.vercel.app/update',{
       id: content._id,
-      inc: false
+      inc: 0
     },{
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
